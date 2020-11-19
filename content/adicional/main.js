@@ -59,54 +59,223 @@ var ExtrairObjeto = function (linhaDatatable, idDatatable) {
 
 var usuariosTeste = [
     {
-        "email": "luiz_gustavo_77@hotmail.com",
-        "cpf": "409.165.428-23",
-        "cep": "09070-060",
+        "email": "teste@hotmail.com",
+        "cpf": "303.165.222-23",
+        "cep": "09070-070",
         "senha": "senha",
-        "perfil": "pestador"
+        "perfil": "Usuario"
     },
     {
-        "email": "luiz_gustavo_77@hotmail.com1",
-        "cpf": "409.165.428-231",
-        "cep": "09070-0601",
+        "email": "teste@hotmail.com1",
+        "cpf": "303.165.222-24",
+        "cep": "09070-080",
         "senha": "senha1",
-        "perfil": "pestador1"
+        "perfil": "Prestador"
     },
     {
-        "email": "luiz_gustavo_77@hotmail.com2",
-        "cpf": "409.165.428-232",
-        "cep": "09070-0602",
+        "email": "teste@hotmail.com2",
+        "cpf": "303.165.222-25",
+        "cep": "09070-090",
         "senha": "senha2",
-        "perfil": "pestador2"
+        "perfil": "Prestador"
+    },
+    {
+        "email": "teste@hotmail.com",
+        "cpf": "303.165.222-26",
+        "cep": "09070-070",
+        "senha": "senha",
+        "perfil": "Usuario"
+    },
+    {
+        "email": "teste@hotmail.com1",
+        "cpf": "303.165.222-27",
+        "cep": "09070-080",
+        "senha": "senha1",
+        "perfil": "Usuario"
+    },
+    {
+        "email": "teste@hotmail.com2",
+        "cpf": "303.165.222-28",
+        "cep": "09070-090",
+        "senha": "senha2",
+        "perfil": "Prestador"
+    },
+    {
+        "email": "teste@hotmail.com",
+        "cpf": "303.165.222-29",
+        "cep": "09070-070",
+        "senha": "senha",
+        "perfil": "Usuario"
+    },
+    {
+        "email": "teste@hotmail.com1",
+        "cpf": "303.165.222-30",
+        "cep": "09070-080",
+        "senha": "senha1",
+        "perfil": "Usuario"
+    },
+    {
+        "email": "teste@hotmail.com2",
+        "cpf": "303.165.222-31",
+        "cep": "09070-090",
+        "senha": "senha2",
+        "perfil": "Prestador"
     }
 ]
 
 var equipamentoTeste = [
     {
         "id": "0",
-        "modelo": "lava",
-        "marca": "lg",
-        "comentario": "comentario",
-        "colaborador": "luiz",
-        "situacao": "funcionando",
+        "modelo": "Lava e seca",
+        "marca": "LG",
+        "comentario": "Otima",
+        "colaborador": "Luiz",
+        "situacao": "Funcionando",
         "funcoes": "lava,seca"
     },
     {
         "id": "01",
-        "modelo": "lava1",
-        "marca": "lg1",
-        "comentario": "comentario1",
-        "colaborador": "luiz1",
-        "situacao": "funcionando1",
-        "funcoes": "lava,seca1"
+        "modelo": "Lava e seca",
+        "marca": "SAMSUNG",
+        "comentario": "Pode usar o secar",
+        "colaborador": "Marcelo",
+        "situacao": "Funcionando",
+        "funcoes": "lava,seca"
     },
     {
         "id": "02",
-        "modelo": "lava2",
-        "marca": "lg2",
-        "comentario": "comentario2",
-        "colaborador": "luiz2",
-        "situacao": "funcionando2",
-        "funcoes": "lava,seca2"
+        "modelo": "Lava e seca",
+        "marca": "AOC",
+        "comentario": "Tenho produtos",
+        "colaborador": "Thiago",
+        "situacao": "Funcionando",
+        "funcoes": "lava,seca"
+    },
+    {
+        "id": "03",
+        "modelo": "Lava e seca",
+        "marca": "AOC",
+        "comentario": "Tenho produtos",
+        "colaborador": "Thiago",
+        "situacao": "Funcionando",
+        "funcoes": "lava,seca"
+    },
+    {
+        "id": "04",
+        "modelo": "Lava e seca",
+        "marca": "AOC",
+        "comentario": "Tenho produtos",
+        "colaborador": "Thiago",
+        "situacao": "Funcionando",
+        "funcoes": "lava,seca"
+    },
+    {
+        "id": "05",
+        "modelo": "Lava e seca",
+        "marca": "AOC",
+        "comentario": "Tenho produtos",
+        "colaborador": "Thiago",
+        "situacao": "Funcionando",
+        "funcoes": "lava,seca"
     }
+]
+
+
+var trabalhoTeste = [
+    {
+        "id": "0",
+        "solicitante": "Luiz",
+        "colaborador": "Marcelo",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "10Kg"
+    },
+    {
+        "id": "01",
+        "solicitante": "Jho",
+        "colaborador": "Marcelo",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Em andamento",
+        "kg": "5Kg"
+    },
+    {
+        "id": "02",
+        "solicitante": "Luiz",
+        "colaborador": "Marcelo",
+        "avaliacao": "OK",
+        "situacao": "Feito",
+        "kg": "5Kg"
+    },
+    {
+        "id": "03",
+        "solicitante": "Luiz",
+        "colaborador": "Jho",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Em andamento",
+        "kg": "10Kg"
+    },
+    {
+        "id": "04",
+        "solicitante": "Luiz",
+        "colaborador": "Marcelo",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Cancelado",
+        "kg": "10Kg"
+    },
+    {
+        "id": "05",
+        "solicitante": "Jho",
+        "colaborador": "Thiago",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "5Kg"
+    },
+    {
+        "id": "06",
+        "solicitante": "Luiz",
+        "colaborador": "Thiago",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Cancelado",
+        "kg": "10Kg"
+    },
+    {
+        "id": "07",
+        "solicitante": "Luiz",
+        "colaborador": "Jho",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "5Kg"
+    },
+    {
+        "id": "08",
+        "solicitante": "Luiz",
+        "colaborador": "Marcelo",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "10Kg"
+    },
+    {
+        "id": "09",
+        "solicitante": "Luiz",
+        "colaborador": "Thiago",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Cancelado",
+        "kg": "10Kg"
+    },
+    {
+        "id": "10",
+        "solicitante": "Luiz",
+        "colaborador": "Marcelo",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "5Kg"
+    },
+    {
+        "id": "11",
+        "solicitante": "Luiz",
+        "colaborador": "Thiago",
+        "avaliacao": "Trabalho bem feito",
+        "situacao": "Feito",
+        "kg": "5Kg"
+    },
 ]
