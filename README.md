@@ -1,6 +1,8 @@
 # :necktie: **UASH**
 
-> Projeto para apresentação do trabalho de chamado UASH
+> Projeto para apresentação
+
+---
 
 # :gear: https://luizgustavo77.github.io/FTT-UASH-PAGE/
 
