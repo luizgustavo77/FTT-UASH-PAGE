@@ -1,0 +1,27 @@
+{
+    "dto": {
+        "lista": [
+            {
+                "email": "luiz_gustavo_77@hotmail.com",
+                "cpf": "409.165.428-23",
+                "cep": "09070-060",
+                "senha": "senha",
+                "perfil": "funcionario"
+            },
+            {
+                "email": "luiz_gustavo_77@hotmail.com1",
+                "cpf": "409.165.428-231",
+                "cep": "09070-0601",
+                "senha": "senha1",
+                "perfil": "funcionario1"
+            },
+            {
+                "email": "luiz_gustavo_77@hotmail.com2",
+                "cpf": "409.165.428-232",
+                "cep": "09070-0602",
+                "senha": "senha2",
+                "perfil": "funcionario2"
+            }
+        ]
+    }
+}
