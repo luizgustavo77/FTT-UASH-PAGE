@@ -38,7 +38,7 @@ nav a{
 }
 
 body{
-    background-image: url("content/images/home.png");
+    background-image: url("/content/images/home.png");
     background-attachment: fixed;
     background-position: center;
     width: 100% !important;
