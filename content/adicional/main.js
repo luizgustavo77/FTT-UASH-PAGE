@@ -210,7 +210,7 @@ var trabalhoTeste = [
         "id": "03",
         "solicitante": "Luiz",
         "colaborador": "Jho",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "Podia ficar melhor",
         "situacao": "Em andamento",
         "kg": "10Kg"
     },
@@ -218,7 +218,7 @@ var trabalhoTeste = [
         "id": "04",
         "solicitante": "Luiz",
         "colaborador": "Marcelo",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "Aff mo bosta",
         "situacao": "Cancelado",
         "kg": "10Kg"
     },
@@ -226,7 +226,7 @@ var trabalhoTeste = [
         "id": "05",
         "solicitante": "Jho",
         "colaborador": "Thiago",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "Aff mo bosta",
         "situacao": "Feito",
         "kg": "5Kg"
     },
@@ -234,7 +234,7 @@ var trabalhoTeste = [
         "id": "06",
         "solicitante": "Luiz",
         "colaborador": "Thiago",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "OK",
         "situacao": "Cancelado",
         "kg": "10Kg"
     },
@@ -250,7 +250,7 @@ var trabalhoTeste = [
         "id": "08",
         "solicitante": "Luiz",
         "colaborador": "Marcelo",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "Cheiro bom",
         "situacao": "Feito",
         "kg": "10Kg"
     },
@@ -266,7 +266,7 @@ var trabalhoTeste = [
         "id": "10",
         "solicitante": "Luiz",
         "colaborador": "Marcelo",
-        "avaliacao": "Trabalho bem feito",
+        "avaliacao": "Tava com cara de cansado",
         "situacao": "Feito",
         "kg": "5Kg"
     },
